@@ -1,0 +1,31 @@
+ import csv
+   with open("PiecesA.csv") as file
+       csv_reader = csv.reader(file, delimiter=",")
+       for row in csv_reader
+        if count != 0:
+          print(row)
+        count +=1
+           ["Reference", "Name", "Units", "Confidence", "Description"]
+           ["REF-809", "Screw", "20", "98.98", "These are screws"]
+           ["LF-89", "Valve", "1", "50.3", "It is used for fluids"]
+           ["PD-SA", "Damping", "8", "97.4", "Check it"]
+   import csv
+   with open("PiecesB.csv") as file
+       csv_reader = csv.reader(file, delimiter=",")
+       for row in csv_reader
+        if count != 0:
+          print(row)
+        count +=1
+           ["Name", "Units", "Reference", "Confidence", "Description"]
+           ["Engine", "1", "REF-12", "90", "This provides the powerful"]
+           ["Nut", "100", "NU-89", "80", "These are useful"]
+           ["Tire", "8", "T-123", "80", "Check it"]
+
+
+    print("Enter the name of the file to import")
+    if PiecesA.xlsx
+      print("File parts imported succesfully")
+    elif PiecesB.xlsx
+      print("File parts imported succesfully")
+    elif file_not_exists.csv 
+      print("The file does not exist")
